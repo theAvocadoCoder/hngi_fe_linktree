@@ -1,7 +1,11 @@
-
+import Profile from "./components/Profile.js";
 
 function App() {
-  return null;
+  return (
+    <>
+      <Profile />
+    </>
+  );
 }
 
 export default App;
