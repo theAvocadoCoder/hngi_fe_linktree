@@ -13,8 +13,8 @@ export default function LinkList() {
     },
     {
       id: "slack",
-      url: "https://slack.com/theAvocadoCoder/",
-      text: "Slack",
+      url: "https://hng9.slack.com/team/U048NMSEX6D/",
+      text: "theAvocadoCoder",
     },
     {
       id: "btn__zuri",
