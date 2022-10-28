@@ -43,6 +43,7 @@ export default function LinkList() {
       id: "book__design",
       url: "https://books.zuri.team/design-rules",
       text: "Design Books",
+      subtext: "The HNG Design Rules Book gives you the tips & guidelines you need to create truly professional designs, by addressing errors that could you get you disqualified.",
     },
   ]
 
