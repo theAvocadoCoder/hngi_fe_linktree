@@ -1,0 +1,20 @@
+.link__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem;
+  width: min(80%, 60rem);
+  height: 2rem;
+  background-color: #EAECF0;
+  border-radius: .5rem;
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+#slack {
+  display: none;
+}
