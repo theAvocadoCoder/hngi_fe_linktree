@@ -9,7 +9,7 @@ export default function Profile() {
   const isNotMobile = useMediaQuery("(min-width: 1024px)");
   return (
     <div id="profile__div">
-      <img src={profileImage} alt="Kelechi Nwa-uwa's profile" id="profile__image" />
+      <img src={profileImage} alt="Kelechi Nwa-uwa's profile" id="profile__img" />
       <p id="profile__name">Kelechi Nwa-uwa</p>
       <span id="share__btn">
         { isNotMobile ? <ShareIcon /> : <MoreDetailsIcon />}
