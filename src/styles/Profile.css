@@ -1,17 +1,30 @@
 
-div {
+#profile__div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 1.2rem;
   align-items: center;
+  padding: 3rem 0;
 }
 
 #profile__image {
-  width: 3rem;
+  width: 4rem;
   border-radius: 50%;
 }
 
-p {
+#profile__name {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
+}
+
+#share__btn {
+  position: absolute;
+  top: 1.2rem;
+  right: 5vw;
+}
+
+@media screen and (min-width: 1024px) {
+  #share__btn {
+    right: 25%;
+  }
 }

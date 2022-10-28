@@ -8,7 +8,7 @@ import ShareIcon from './icon-svg-components/ShareIcon';
 export default function Profile() {
   const isNotMobile = useMediaQuery("(min-width: 1024px)");
   return (
-    <div>
+    <div id="profile__div">
       <img src={profileImage} alt="Kelechi Nwa-uwa's profile" id="profile__image" />
       <p id="profile__name">Kelechi Nwa-uwa</p>
       <span id="share__btn">
