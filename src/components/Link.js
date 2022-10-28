@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Link.css";
 
 export default function LinkComponent({ link }) {
   return (
