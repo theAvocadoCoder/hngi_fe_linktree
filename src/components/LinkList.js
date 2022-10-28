@@ -25,16 +25,19 @@ export default function LinkList() {
       id: "books",
       url: "https://books.zuri/team/",
       text: "Zuri Books",
+      subtext: "Look through our super helpful catalog of coding and design books",
     },
     {
       id: "book__python",
       url: "https://books.zuri.team/python-for-beginners?ref_id=theAvocadoCoder",
       text: "Python Books",
+      subtext: `Are you a code newbie?\nLooking to solidify your understanding of python and be the next big name in machine learning?\nLook no further; our Python for Beginners book is the perfect place to start you on your journey!`,
     },
     {
       id: "pitch",
       url: "https://background.zuri.team/",
       text: "Background Check for Coders",
+      subtext: "Learn about the good, bad, and downright scary online activities of candidates and employees.\nLet us help you make better informed hiring decisions.",
     },
     {
       id: "book__design",
