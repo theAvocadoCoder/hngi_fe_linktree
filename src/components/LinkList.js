@@ -9,7 +9,7 @@ export default function LinkList() {
     {
       id: "twitter",
       url: "https://twitter.com/theAvocadoCoder/",
-      text: "Twitter Link",
+      text: "@theAvocadoCoder [Twitter]",
     },
     {
       id: "slack",
