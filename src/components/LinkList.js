@@ -35,7 +35,7 @@ export default function LinkList() {
     },
     {
       id: "pitch",
-      url: "https://background.zuri.team/",
+      url: "https://backgroundcheck.zuri.team/",
       text: "Background Check for Coders",
       subtext: "Learn about the good, bad, and downright scary online activities of candidates and employees.\nLet us help you make better informed hiring decisions.",
     },
