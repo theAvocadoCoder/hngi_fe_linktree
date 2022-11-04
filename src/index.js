@@ -6,7 +6,7 @@ import App from './App.js';
 
 const router = createBrowserRouter([
   {
-    path: "/hngi_fe_linktree",
+    path: "/",
     element: <App />,
   },
 ])
