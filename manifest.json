@@ -1,6 +1,6 @@
 {
-  "short_name": "fe stage 1",
-  "name": "HNGi Front End Stage 1",
+  "short_name": "HNGi Linktree",
+  "name": "HNGi Front End Linktree",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
