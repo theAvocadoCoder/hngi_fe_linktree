@@ -39,5 +39,10 @@
       text: "Design Books",
       subtext: "The HNG Design Rules Book gives you the tips & guidelines you need to create truly professional designs, by addressing errors that could you get you disqualified.",
     },
+    {
+      id: "contact",
+      url: "./contact",
+      text: "Contact Me",
+    }
   ]
 
