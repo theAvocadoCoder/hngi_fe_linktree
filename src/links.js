@@ -43,6 +43,7 @@
       id: "contact",
       url: "./contact",
       text: "Contact Me",
+      isSiteURL: true,
     }
   ]
 
