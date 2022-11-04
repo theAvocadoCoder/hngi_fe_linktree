@@ -9,7 +9,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-])
+],
+{
+  basename: "/hngi_fe_linktree"
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
