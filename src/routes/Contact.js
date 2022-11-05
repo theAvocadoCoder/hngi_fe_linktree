@@ -21,6 +21,7 @@ export default function Contact() {
                 id="first_name" 
                 placeholder="Enter your first name" 
                 aria-label="First Name" 
+                required
               />
             </label>
             <label htmlFor="last_name">
@@ -42,6 +43,7 @@ export default function Contact() {
               id="email" 
               placeholder="yourname@email.com" 
               aria-label="Email" 
+              required
             />
           </label>
           <label htmlFor="message">
@@ -51,6 +53,7 @@ export default function Contact() {
               id="message" 
               placeholder="Send me a message and I'll reply you as soon as possible..." 
               aria-label="message" 
+              required
             />
           </label> 
           <label htmlFor="consent__checkbox">
@@ -59,6 +62,7 @@ export default function Contact() {
               name="consent__checkbox" 
               id="consent__checkbox"
               aria-label="Consent Checkbox" 
+              required
             />
             <p>You agree to providing your data to Kelechi who may contact you</p>
           </label>
