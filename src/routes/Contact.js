@@ -1,7 +1,11 @@
 import React from "react";
-import { Form } from "react-router-dom";
+import { Form, redirect } from "react-router-dom";
 import Footer from "../components/Footer";
 import "../styles/Contact.css";
+
+export function action() {
+  return redirect("/");
+}
 
 export default function Contact() {
   return (
