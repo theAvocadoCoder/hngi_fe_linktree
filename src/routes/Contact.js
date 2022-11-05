@@ -66,7 +66,7 @@ export default function Contact() {
               aria-label="Consent Checkbox" 
               required
             />
-            <p>You agree to providing your data to Kelechi who may contact you</p>
+            <p>You agree to providing your data to Kelechi Nwa-uwa who may contact you</p>
           </label>
           <label htmlFor="btn__submit">
             <button 
