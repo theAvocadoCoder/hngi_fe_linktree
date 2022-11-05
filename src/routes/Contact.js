@@ -6,11 +6,11 @@ import "../styles/Contact.css";
 export default function Contact() {
   return (
     <div id="contact__div">
-      <div>
-        <h1>Contact Me</h1>
-        <p>Hi there, contact me to ask about anything you have in mind.</p>
-      </div>
       <Form method="post" id="contact__form">
+        <div id="contact_header__div">
+          <h1>Contact Me</h1>
+          <p>Hi there, contact me to ask about anything you have in mind.</p>
+        </div>
         <div id="form_fields__div">
           <div id="names__div">
             <label htmlFor="first_name">

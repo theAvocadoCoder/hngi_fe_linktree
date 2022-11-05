@@ -13,6 +13,11 @@
   line-height: 24px;
 }
 
+#contact_header__div {
+  width: 100%;
+  margin: 5vw 0 2.3rem 0;
+}
+
 h1 {
   color: #101828;
   font-weight: 600;
@@ -29,6 +34,7 @@ p {
   justify-content: center;
   width: min(100%, 60rem);
   gap: 1.1rem;
+  padding: 0 0 5vw 0;
 }
 
 #names__div {
