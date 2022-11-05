@@ -1,6 +1,7 @@
 import React from "react";
 import { Form } from "react-router-dom";
 import Footer from "../components/Footer";
+import "../styles/Contact.css";
 
 export default function Contact() {
   return (
