@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./styles/normalize.css";
 import App from './App.js';
 import Contact from './routes/Contact';
-import { action as contactAction } from "./routes/Contact";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +13,6 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
-    action: contactAction,
   }
 ],
 {

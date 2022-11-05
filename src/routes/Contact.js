@@ -1,13 +1,11 @@
 import React from "react";
-import { Form, redirect } from "react-router-dom";
+import { Form, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import "../styles/Contact.css";
 
-export function action() {
-  return redirect("/");
-}
-
 export default function Contact() {
+  const navigate = useNavigate();
+
   return (
     <div id="contact__div">
       <Form method="post" id="contact__form">
@@ -71,7 +69,13 @@ export default function Contact() {
             <p>You agree to providing your data to Kelechi who may contact you</p>
           </label>
           <label htmlFor="btn__submit">
-            <button type="submit" id="btn__submit">Send Message</button>
+            <button 
+              type="button" 
+              id="btn__submit"
+              onClick={()=>{
+                navigate(-1);
+              }}
+            >Send Message</button>
           </label>
         </div> 
       </Form>
